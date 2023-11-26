@@ -1,0 +1,8 @@
+com\HRM\testcases\HRMExistingEmployeeDetailsTest.class
+com\HRM\testcases\OrangeHRMEmpDetailsTest.class
+com\HRM\testcases\LoginInvalidCred.class
+com\HRM\testcases\HRMJobHistoryTest.class
+com\HRM\testcases\HRMSalaryDetailsTest.class
+com\HRM\testcases\HRMValidLoginTest.class
+com\HRM\testcases\HRMEmployeeEditDetailsTest.class
+com\HRM\testcases\HRMAddNewUserTest.class

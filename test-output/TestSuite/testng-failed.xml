@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRMTest(failed)">
+    <classes>
+      <class name="com.HRM.testcases.HRMEmployeeEditDetailsTest">
+        <methods>
+          <include name="EditDetails"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.HRMEmployeeEditDetailsTest -->
+      <class name="com.HRM.testcases.LoginInvalidCred">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLogo"/>
+          <include name="teardown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.LoginInvalidCred -->
+      <class name="com.HRM.testcases.OrangeHRMEmpDetailsTest">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.OrangeHRMEmpDetailsTest -->
+      <class name="com.HRM.testcases.HRMValidLoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLogo"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.HRMValidLoginTest -->
+      <class name="com.HRM.testcases.HRMExistingEmployeeDetailsTest">
+        <methods>
+          <include name="EditDetails"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.HRMExistingEmployeeDetailsTest -->
+    </classes>
+  </test> <!-- HRMTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
