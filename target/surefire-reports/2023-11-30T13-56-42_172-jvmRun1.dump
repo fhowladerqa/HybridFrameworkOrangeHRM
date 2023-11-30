@@ -1,4 +1,4 @@
-# Created at 2023-11-30T13:14:34.046
+# Created at 2023-11-30T13:57:28.784
 java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.TakesScreenshot is in unnamed module of loader 'app')
 	at com.HRM.Utility.TestUtils.getScreenShot(TestUtils.java:18)
 	at com.HRM.listeners.MyListeners.onTestFailure(MyListeners.java:33)
