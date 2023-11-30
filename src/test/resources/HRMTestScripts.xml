@@ -9,7 +9,7 @@
 
 	<test thread-count="5" name="OrangeHRM_Tests_Execution">
 
-		<parameter name="browser" value="Chrome" />
+		<parameter name="browser" value="Edge" />
 		<parameter name="URL"
 			value="https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login" />
 
