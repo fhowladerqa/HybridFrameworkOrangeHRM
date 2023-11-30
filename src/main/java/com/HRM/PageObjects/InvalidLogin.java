@@ -31,6 +31,9 @@ public class InvalidLogin extends BaseClass{
 	@FindBy(xpath = "//div[@class='toast-message']")
 	WebElement CredentialsWarning;
 	
+	@FindBy (xpath = "//span[text()='You have been restricted from accessing OrangeHRM temporarily.']")
+	WebElement Restricted_Acct;
+	
 	
 	public InvalidLogin() {
 		
@@ -51,7 +54,11 @@ public class InvalidLogin extends BaseClass{
 	
 	public boolean negativeCredentials() throws TimeoutException, InterruptedException {
 		Thread.sleep(7000);
+		try {
 		return Action.isDisplayed(getDriver(), CredentialsWarning);
+		} catch (Throwable e) {
+			return Action.isDisplayed(getDriver(), Restricted_Acct);
+		}
 		
 	}
 
