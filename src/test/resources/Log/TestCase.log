@@ -122,3 +122,11 @@
 [INFO ] 2023-11-30 13:56:51.627 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
 [INFO ] 2023-11-30 14:02:29.751 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
 [INFO ] 2023-11-30 14:02:31.622 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:20:49.158 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:20:50.964 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:20:54.033 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:20:54.034 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:21:58.716 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:22:00.687 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:22:03.750 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:22:03.751 [main] LoginInvalidCred - Browser closes!

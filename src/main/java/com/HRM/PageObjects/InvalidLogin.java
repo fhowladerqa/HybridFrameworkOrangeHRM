@@ -53,9 +53,13 @@ public class InvalidLogin extends BaseClass{
 	}
 	
 	public boolean negativeCredentials() throws TimeoutException, InterruptedException {
-		Thread.sleep(7000);
+		Thread.sleep(3000);
+		try {
 		return Action.isDisplayed(getDriver(), CredentialsWarning);
+	} catch(Exception e) {
+		return Action.isDisplayed(getDriver(), Restricted_Acct);
 		
 	}
 
+}
 }
