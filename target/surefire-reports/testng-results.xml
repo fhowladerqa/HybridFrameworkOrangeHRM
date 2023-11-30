@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T16:29:04 EST" name="HRM_Tests" finished-at="2023-11-29T16:33:26 EST" duration-ms="262634">
+  <suite started-at="2023-11-29T20:09:41 EST" name="HRM_Tests" finished-at="2023-11-29T20:14:43 EST" duration-ms="302267">
     <groups>
     </groups>
-    <test started-at="2023-11-29T16:29:04 EST" name="OrangeHRM_Tests_Execution" finished-at="2023-11-29T16:33:26 EST" duration-ms="262634">
+    <test started-at="2023-11-29T20:09:41 EST" name="OrangeHRM_Tests_Execution" finished-at="2023-11-29T20:14:43 EST" duration-ms="302267">
       <class name="com.HRM.testcases.HRMExistingEmployeeDetailsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@2eee3069]" started-at="2023-11-29T16:29:30 EST" name="setup" finished-at="2023-11-29T16:29:34 EST" duration-ms="4016" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@28ec166e]" started-at="2023-11-29T20:10:23 EST" name="setup" finished-at="2023-11-29T20:10:27 EST" duration-ms="4467" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:4, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@2eee3069]" started-at="2023-11-29T16:29:34 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:29:58 EST" duration-ms="23701" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:4, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@28ec166e]" started-at="2023-11-29T20:10:27 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:10:53 EST" duration-ms="25389" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@2eee3069]" started-at="2023-11-29T16:29:58 EST" name="teardown" finished-at="2023-11-29T16:29:58 EST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@28ec166e]" started-at="2023-11-29T20:10:53 EST" name="teardown" finished-at="2023-11-29T20:10:53 EST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.HRMExistingEmployeeDetailsTest -->
       <class name="com.HRM.testcases.HRMAddNewUserTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMAddNewUserTest@4df5bcb4]" started-at="2023-11-29T16:30:37 EST" name="setup" finished-at="2023-11-29T16:30:40 EST" duration-ms="3095" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMAddNewUserTest@5629510]" started-at="2023-11-29T20:11:42 EST" name="setup" finished-at="2023-11-29T20:11:46 EST" duration-ms="4274" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:6, instance:com.HRM.testcases.HRMAddNewUserTest@4df5bcb4]" started-at="2023-11-29T16:30:40 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:31:50 EST" duration-ms="70314" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:6, instance:com.HRM.testcases.HRMAddNewUserTest@5629510]" started-at="2023-11-29T20:11:46 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:12:56 EST" duration-ms="70122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,17 +77,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMAddNewUserTest@4df5bcb4]" started-at="2023-11-29T16:31:50 EST" name="teardown" finished-at="2023-11-29T16:31:51 EST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMAddNewUserTest@5629510]" started-at="2023-11-29T20:12:56 EST" name="teardown" finished-at="2023-11-29T20:12:57 EST" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.HRMAddNewUserTest -->
       <class name="com.HRM.testcases.HRMEmployeeEditDetailsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@5629510]" started-at="2023-11-29T16:30:11 EST" name="setup" finished-at="2023-11-29T16:30:13 EST" duration-ms="2794" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@2da59753]" started-at="2023-11-29T20:11:09 EST" name="setup" finished-at="2023-11-29T20:11:11 EST" duration-ms="2716" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:3, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@5629510]" started-at="2023-11-29T16:30:13 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:30:36 EST" duration-ms="22975" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:3, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@2da59753]" started-at="2023-11-29T20:11:11 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:11:41 EST" duration-ms="29728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,21 +115,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@5629510]" started-at="2023-11-29T16:30:36 EST" name="teardown" finished-at="2023-11-29T16:30:37 EST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMEmployeeEditDetailsTest@2da59753]" started-at="2023-11-29T20:11:41 EST" name="teardown" finished-at="2023-11-29T20:11:42 EST" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.HRMEmployeeEditDetailsTest -->
       <class name="com.HRM.testcases.OrangeHRMEmpDetailsTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@16c63f5]" started-at="2023-11-29T16:29:04 EST" name="loadConfig" finished-at="2023-11-29T16:29:04 EST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@2a898881]" started-at="2023-11-29T20:09:41 EST" name="loadConfig" finished-at="2023-11-29T20:09:41 EST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@16c63f5]" started-at="2023-11-29T16:29:05 EST" name="setup" finished-at="2023-11-29T16:29:10 EST" duration-ms="5124" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@2a898881]" started-at="2023-11-29T20:09:42 EST" name="setup" finished-at="2023-11-29T20:10:00 EST" duration-ms="17171" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:2, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@16c63f5]" started-at="2023-11-29T16:29:10 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:29:30 EST" duration-ms="19953" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:2, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@2a898881]" started-at="2023-11-29T20:10:00 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:10:22 EST" duration-ms="22418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,17 +157,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@16c63f5]" started-at="2023-11-29T16:29:30 EST" name="teardown" finished-at="2023-11-29T16:29:30 EST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@2a898881]" started-at="2023-11-29T20:10:22 EST" name="teardown" finished-at="2023-11-29T20:10:23 EST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.OrangeHRMEmpDetailsTest -->
       <class name="com.HRM.testcases.LoginInvalidCred">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.LoginInvalidCred@2da59753]" started-at="2023-11-29T16:29:58 EST" name="setup" finished-at="2023-11-29T16:30:01 EST" duration-ms="2381" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.LoginInvalidCred@2eee3069]" started-at="2023-11-29T20:10:53 EST" name="setup" finished-at="2023-11-29T20:10:57 EST" duration-ms="4182" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InvalidData(java.lang.String,java.lang.String)[pri:1, instance:com.HRM.testcases.LoginInvalidCred@2da59753]" started-at="2023-11-29T16:30:01 EST" name="InvalidData" data-provider="bvttest" finished-at="2023-11-29T16:30:10 EST" duration-ms="9367" status="PASS">
+        <test-method signature="InvalidData(java.lang.String,java.lang.String)[pri:1, instance:com.HRM.testcases.LoginInvalidCred@2eee3069]" started-at="2023-11-29T20:10:57 EST" name="InvalidData" data-provider="bvttest" finished-at="2023-11-29T20:11:08 EST" duration-ms="10575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,17 +195,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.LoginInvalidCred@2da59753]" started-at="2023-11-29T16:30:10 EST" name="teardown" finished-at="2023-11-29T16:30:11 EST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.LoginInvalidCred@2eee3069]" started-at="2023-11-29T20:11:08 EST" name="teardown" finished-at="2023-11-29T20:11:08 EST" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.LoginInvalidCred -->
       <class name="com.HRM.testcases.HRMSalaryDetailsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMSalaryDetailsTest@2826f61]" started-at="2023-11-29T16:32:55 EST" name="setup" finished-at="2023-11-29T16:32:59 EST" duration-ms="3811" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMSalaryDetailsTest@13d9b21f]" started-at="2023-11-29T20:14:09 EST" name="setup" finished-at="2023-11-29T20:14:15 EST" duration-ms="5182" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -217,7 +217,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:7, instance:com.HRM.testcases.HRMSalaryDetailsTest@2826f61]" started-at="2023-11-29T16:32:59 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:33:26 EST" duration-ms="26884" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:7, instance:com.HRM.testcases.HRMSalaryDetailsTest@13d9b21f]" started-at="2023-11-29T20:14:15 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:14:42 EST" duration-ms="27962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,17 +233,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMSalaryDetailsTest@2826f61]" started-at="2023-11-29T16:33:26 EST" name="teardown" finished-at="2023-11-29T16:33:26 EST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMSalaryDetailsTest@13d9b21f]" started-at="2023-11-29T20:14:42 EST" name="teardown" finished-at="2023-11-29T20:14:43 EST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.HRMSalaryDetailsTest -->
       <class name="com.HRM.testcases.HRMValidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@12c7a01b]" started-at="2023-11-29T16:31:51 EST" name="setup" finished-at="2023-11-29T16:31:54 EST" duration-ms="2950" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@4df5bcb4]" started-at="2023-11-29T20:12:57 EST" name="setup" finished-at="2023-11-29T20:13:02 EST" duration-ms="5331" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -255,7 +255,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@12c7a01b]" started-at="2023-11-29T16:31:54 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:32:05 EST" duration-ms="10718" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@4df5bcb4]" started-at="2023-11-29T20:13:02 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:13:15 EST" duration-ms="13125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,17 +271,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@12c7a01b]" started-at="2023-11-29T16:32:05 EST" name="teardown" finished-at="2023-11-29T16:32:05 EST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@4df5bcb4]" started-at="2023-11-29T20:13:15 EST" name="teardown" finished-at="2023-11-29T20:13:16 EST" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.HRM.testcases.HRMValidLoginTest -->
       <class name="com.HRM.testcases.HRMJobHistoryTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@13d9b21f]" started-at="2023-11-29T16:32:05 EST" name="setup" finished-at="2023-11-29T16:32:08 EST" duration-ms="3109" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@12c7a01b]" started-at="2023-11-29T20:13:16 EST" name="setup" finished-at="2023-11-29T20:13:21 EST" duration-ms="4434" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -293,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:5, instance:com.HRM.testcases.HRMJobHistoryTest@13d9b21f]" started-at="2023-11-29T16:32:08 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T16:32:55 EST" duration-ms="46360" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:5, instance:com.HRM.testcases.HRMJobHistoryTest@12c7a01b]" started-at="2023-11-29T20:13:21 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-29T20:14:08 EST" duration-ms="47830" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@13d9b21f]" started-at="2023-11-29T16:32:55 EST" name="teardown" finished-at="2023-11-29T16:32:55 EST" duration-ms="455" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@12c7a01b]" started-at="2023-11-29T20:14:08 EST" name="teardown" finished-at="2023-11-29T20:14:09 EST" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
