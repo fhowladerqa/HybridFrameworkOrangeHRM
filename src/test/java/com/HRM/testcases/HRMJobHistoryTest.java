@@ -36,7 +36,7 @@ public class HRMJobHistoryTest extends BaseClass {
 	}
 	
 	
-	@Test(priority=5, enabled=false, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=5, enabled=true, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		
 		validlogin = new HRMValidPage();

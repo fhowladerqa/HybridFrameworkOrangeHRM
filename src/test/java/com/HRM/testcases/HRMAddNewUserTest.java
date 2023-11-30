@@ -39,7 +39,7 @@ public class HRMAddNewUserTest extends BaseClass {
 		getDriver().quit();
 	}
 
-	@Test(priority=6, enabled=false, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=6, enabled=true, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		
 		AddingNewUser = new HRMAddNewUser();

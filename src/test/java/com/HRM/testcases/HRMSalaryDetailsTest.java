@@ -28,7 +28,7 @@ public static org.apache.logging.log4j.Logger log = LogManager.getLogger(HRMSala
 		getDriver().quit();
 	}
 
-	@Test(priority=7, enabled=false, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=7, enabled=true, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		
 		salaryDetails = new HRMSalaryDetails();

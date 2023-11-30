@@ -31,7 +31,7 @@ public class HRMExistingEmployeeDetailsTest extends BaseClass {
 		getDriver().quit();
 	}
 	
-	@Test(priority=4, enabled=false,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=4, enabled=true,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		
 		existingEmp = new HRMExistingEmployeeDetails();
