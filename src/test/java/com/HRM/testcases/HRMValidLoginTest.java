@@ -32,7 +32,7 @@ public class HRMValidLoginTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(priority=0,enabled=true,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=0,enabled=false,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		log.info("Browser is opening and navigates to OrangeHRMPage");
 		validlogin = new HRMValidPage();

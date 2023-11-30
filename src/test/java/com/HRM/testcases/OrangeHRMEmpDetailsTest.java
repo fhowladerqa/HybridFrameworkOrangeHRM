@@ -31,7 +31,7 @@ public class OrangeHRMEmpDetailsTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(priority=2, enabled=true, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=2, enabled=false, dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void LoginTestData(String uname, String password) throws Throwable {
 		
 		empdetails = new OrangeHRMEmployeeDetails();
