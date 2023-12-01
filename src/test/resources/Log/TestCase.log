@@ -1,132 +1,165 @@
-[INFO ] 2023-11-29 21:01:14.396 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:01:19.858 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-29 21:01:30.168 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-29 21:01:30.168 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-29 21:01:36.590 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:01:41.747 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-29 21:01:54.399 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
-[INFO ] 2023-11-29 21:01:57.220 [main] HRMExistingEmployeeDetailsTest - Browser closes!
-[INFO ] 2023-11-29 21:02:01.373 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:02:03.351 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-29 21:02:10.438 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
-[INFO ] 2023-11-29 21:02:10.439 [main] LoginInvalidCred - Browser closes!
-[INFO ] 2023-11-29 21:02:12.783 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:02:17.968 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-29 21:02:34.302 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-29 21:02:34.302 [main] HRMEmployeeEditDetailsTest - Browser closes!
-[INFO ] 2023-11-29 21:02:37.750 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:02:43.010 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-29 21:03:04.912 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
-[INFO ] 2023-11-29 21:04:32.625 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
-[INFO ] 2023-11-29 21:04:34.971 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:04:35.048 [main] HRMValidLoginTest - Logo is displaying on page!
-[INFO ] 2023-11-29 21:04:40.169 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-29 21:04:40.169 [main] HRMValidLoginTest - Navigates to HRM page!! 
-[INFO ] 2023-11-29 21:04:40.224 [main] HRMValidLoginTest - Browser closes!
-[INFO ] 2023-11-29 21:04:44.812 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:04:49.886 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-29 21:05:24.617 [main] HRMJobHistoryTest - Job history page is being displayed
-[INFO ] 2023-11-29 21:05:27.092 [main] HRMJobHistoryTest - Browser closes!
-[INFO ] 2023-11-29 21:05:30.422 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-29 21:05:35.536 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-29 21:05:45.422 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
-[INFO ] 2023-11-30 12:17:21.456 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:17:30.834 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:17:41.464 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:17:41.464 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:17:48.476 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:17:56.425 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:25:12.276 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:25:20.971 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:25:31.794 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:25:31.794 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:25:37.292 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:25:44.521 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:34:49.787 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:34:55.018 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:35:05.339 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:35:05.339 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:35:11.065 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:35:16.156 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:35:28.980 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
-[INFO ] 2023-11-30 12:35:31.632 [main] HRMExistingEmployeeDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:35:35.854 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:35:37.773 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:35:44.844 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
-[INFO ] 2023-11-30 12:35:44.845 [main] LoginInvalidCred - Browser closes!
-[INFO ] 2023-11-30 12:35:48.060 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:35:53.185 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:36:09.522 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:36:09.523 [main] HRMEmployeeEditDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:36:12.891 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:36:18.003 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 12:36:34.840 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
-[INFO ] 2023-11-30 12:37:13.608 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
-[INFO ] 2023-11-30 12:37:16.939 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:37:17.008 [main] HRMValidLoginTest - Logo is displaying on page!
-[INFO ] 2023-11-30 12:37:22.091 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:37:22.091 [main] HRMValidLoginTest - Navigates to HRM page!! 
-[INFO ] 2023-11-30 12:37:22.133 [main] HRMValidLoginTest - Browser closes!
-[INFO ] 2023-11-30 12:37:27.924 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:37:33.064 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 12:38:07.324 [main] HRMJobHistoryTest - Job history page is being displayed
-[INFO ] 2023-11-30 12:38:09.944 [main] HRMJobHistoryTest - Browser closes!
-[INFO ] 2023-11-30 12:38:13.240 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:38:18.329 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 12:38:28.469 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
-[INFO ] 2023-11-30 12:57:43.812 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:57:48.935 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:57:59.242 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:57:59.242 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:58:03.655 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:58:08.828 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:58:21.514 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
-[INFO ] 2023-11-30 12:58:23.627 [main] HRMExistingEmployeeDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:58:26.418 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:58:28.284 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:58:35.362 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
-[INFO ] 2023-11-30 12:58:35.363 [main] LoginInvalidCred - Browser closes!
-[INFO ] 2023-11-30 12:58:37.628 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:58:42.694 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 12:58:57.043 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 12:58:57.043 [main] HRMEmployeeEditDetailsTest - Browser closes!
-[INFO ] 2023-11-30 12:58:59.415 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 12:59:04.390 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 12:59:21.221 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
-[INFO ] 2023-11-30 12:59:59.470 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
-[INFO ] 2023-11-30 13:00:01.697 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:00:01.755 [main] HRMValidLoginTest - Logo is displaying on page!
-[INFO ] 2023-11-30 13:00:06.964 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 13:00:06.964 [main] HRMValidLoginTest - Navigates to HRM page!! 
-[INFO ] 2023-11-30 13:00:07.018 [main] HRMValidLoginTest - Browser closes!
-[INFO ] 2023-11-30 13:00:11.375 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:00:16.554 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 13:00:50.851 [main] HRMJobHistoryTest - Job history page is being displayed
-[INFO ] 2023-11-30 13:00:52.550 [main] HRMJobHistoryTest - Browser closes!
-[INFO ] 2023-11-30 13:00:54.737 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:00:59.834 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
-[INFO ] 2023-11-30 13:01:09.714 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
-[INFO ] 2023-11-30 13:01:27.119 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:01:32.120 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 13:01:42.402 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
-[INFO ] 2023-11-30 13:01:42.402 [main] OrangeHRMEmpDetailsTest - Browser closes!
-[INFO ] 2023-11-30 13:01:46.695 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:01:51.739 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
-[INFO ] 2023-11-30 13:02:04.428 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
-[INFO ] 2023-11-30 13:02:06.196 [main] HRMExistingEmployeeDetailsTest - Browser closes!
-[INFO ] 2023-11-30 13:02:08.474 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:02:10.233 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 13:13:54.913 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:13:56.878 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 13:56:49.652 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 13:56:51.627 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 14:02:29.751 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 14:02:31.622 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 14:20:49.158 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 14:20:50.964 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 14:20:54.033 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
-[INFO ] 2023-11-30 14:20:54.034 [main] LoginInvalidCred - Browser closes!
-[INFO ] 2023-11-30 14:21:58.716 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
-[INFO ] 2023-11-30 14:22:00.687 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
-[INFO ] 2023-11-30 14:22:03.750 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
-[INFO ] 2023-11-30 14:22:03.751 [main] LoginInvalidCred - Browser closes!
+
+[INFO ] 2023-11-30 14:34:57.629 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 14:34:59.739 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:35:03.196 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:35:05.110 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:35:08.187 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:35:08.187 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:35:10.767 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:35:15.858 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:35:30.884 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:35:30.885 [main] HRMEmployeeEditDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:35:34.226 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:35:39.343 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:35:56.212 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
+[INFO ] 2023-11-30 14:36:34.089 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
+[INFO ] 2023-11-30 14:36:36.311 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:36:36.383 [main] HRMValidLoginTest - Logo is displaying on page!
+[INFO ] 2023-11-30 14:36:41.416 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:36:41.417 [main] HRMValidLoginTest - Navigates to HRM page!! 
+[INFO ] 2023-11-30 14:36:41.474 [main] HRMValidLoginTest - Browser closes!
+[INFO ] 2023-11-30 14:36:45.544 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:36:50.734 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:37:25.109 [main] HRMJobHistoryTest - Job history page is being displayed
+[INFO ] 2023-11-30 14:37:26.774 [main] HRMJobHistoryTest - Browser closes!
+[INFO ] 2023-11-30 14:37:29.011 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:37:34.168 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:37:43.936 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2023-11-30 14:38:02.093 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:38:07.206 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:38:17.528 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:38:17.528 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:38:22.140 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:38:27.194 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:38:39.916 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 14:38:41.791 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:38:44.292 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:38:46.176 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:38:49.260 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:38:49.261 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:38:51.926 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:38:56.986 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:39:11.549 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:39:11.549 [main] HRMEmployeeEditDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:39:14.236 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:39:19.184 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:39:36.017 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
+[INFO ] 2023-11-30 14:40:13.889 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
+[INFO ] 2023-11-30 14:40:16.161 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:40:16.221 [main] HRMValidLoginTest - Logo is displaying on page!
+[INFO ] 2023-11-30 14:40:21.314 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:40:21.315 [main] HRMValidLoginTest - Navigates to HRM page!! 
+[INFO ] 2023-11-30 14:40:21.372 [main] HRMValidLoginTest - Browser closes!
+[INFO ] 2023-11-30 14:40:24.995 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:40:30.115 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:41:04.079 [main] HRMJobHistoryTest - Job history page is being displayed
+[INFO ] 2023-11-30 14:41:05.804 [main] HRMJobHistoryTest - Browser closes!
+[INFO ] 2023-11-30 14:41:08.085 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:41:13.176 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:41:22.894 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2023-11-30 14:45:10.471 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:45:15.866 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:45:26.176 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:45:26.176 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:45:31.808 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:45:37.812 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:45:50.950 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 14:45:54.176 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:45:57.461 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:45:59.356 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:46:02.414 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:46:02.415 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:46:05.630 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:46:10.963 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:46:26.210 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:46:26.210 [main] HRMEmployeeEditDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:46:29.520 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:46:34.740 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:46:51.594 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
+[INFO ] 2023-11-30 14:47:30.260 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
+[INFO ] 2023-11-30 14:47:33.565 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:47:33.632 [main] HRMValidLoginTest - Logo is displaying on page!
+[INFO ] 2023-11-30 14:47:38.723 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:47:38.723 [main] HRMValidLoginTest - Navigates to HRM page!! 
+[INFO ] 2023-11-30 14:47:38.782 [main] HRMValidLoginTest - Browser closes!
+[INFO ] 2023-11-30 14:47:44.524 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:47:49.710 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:48:24.198 [main] HRMJobHistoryTest - Job history page is being displayed
+[INFO ] 2023-11-30 14:48:26.932 [main] HRMJobHistoryTest - Browser closes!
+[INFO ] 2023-11-30 14:48:29.397 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:48:34.539 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:48:44.505 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2023-11-30 14:52:31.864 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:52:36.984 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:52:47.304 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:52:47.304 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:52:52.157 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:52:57.236 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:53:09.934 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 14:53:11.988 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:53:14.324 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:53:16.148 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:53:19.211 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:53:19.211 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:53:21.619 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:53:26.804 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:53:41.201 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:53:41.201 [main] HRMEmployeeEditDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:53:43.667 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:53:48.758 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:54:05.650 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
+[INFO ] 2023-11-30 14:54:43.871 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
+[INFO ] 2023-11-30 14:54:46.046 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:54:46.104 [main] HRMValidLoginTest - Logo is displaying on page!
+[INFO ] 2023-11-30 14:54:51.192 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:54:51.192 [main] HRMValidLoginTest - Navigates to HRM page!! 
+[INFO ] 2023-11-30 14:54:51.244 [main] HRMValidLoginTest - Browser closes!
+[INFO ] 2023-11-30 14:54:55.259 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:55:00.309 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:55:34.861 [main] HRMJobHistoryTest - Job history page is being displayed
+[INFO ] 2023-11-30 14:55:36.541 [main] HRMJobHistoryTest - Browser closes!
+[INFO ] 2023-11-30 14:55:39.009 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:55:44.138 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:55:53.814 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2023-11-30 14:56:13.656 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:56:18.696 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:56:28.992 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:56:28.992 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:56:33.859 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:56:41.173 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:56:54.669 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 14:56:58.851 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:57:04.181 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:57:07.497 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:57:10.595 [main] LoginInvalidCred - Invalid Credentials message is displaying page after login with invalid credentials
+[INFO ] 2023-11-30 14:57:10.595 [main] LoginInvalidCred - Browser closes!
+[INFO ] 2023-11-30 14:57:14.098 [main] HRMEmployeeEditDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:57:21.260 [main] HRMEmployeeEditDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:57:36.521 [main] HRMEmployeeEditDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 14:57:36.522 [main] HRMEmployeeEditDetailsTest - Browser closes!
+[INFO ] 2023-11-30 14:57:40.323 [main] HRMAddNewUserTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:57:47.529 [main] HRMAddNewUserTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:58:04.922 [main] HRMAddNewUserTest - New User's populate fields are displaying on page!
+[INFO ] 2023-11-30 14:58:48.124 [main] HRMAddNewUserTest - New User is added in OrangeHRM website!
+[INFO ] 2023-11-30 14:58:51.469 [main] HRMValidLoginTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:58:51.604 [main] HRMValidLoginTest - Logo is displaying on page!
+[INFO ] 2023-11-30 14:58:59.210 [main] HRMValidLoginTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 14:58:59.211 [main] HRMValidLoginTest - Navigates to HRM page!! 
+[INFO ] 2023-11-30 14:58:59.356 [main] HRMValidLoginTest - Browser closes!
+[INFO ] 2023-11-30 14:59:07.225 [main] HRMJobHistoryTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 14:59:15.106 [main] HRMJobHistoryTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 14:59:50.476 [main] HRMJobHistoryTest - Job history page is being displayed
+[INFO ] 2023-11-30 14:59:52.604 [main] HRMJobHistoryTest - Browser closes!
+[INFO ] 2023-11-30 14:59:57.374 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 15:00:04.910 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
+[INFO ] 2023-11-30 15:00:15.802 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2023-11-30 15:05:02.666 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 15:05:10.299 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 15:05:21.352 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2023-11-30 15:05:21.354 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2023-11-30 15:05:27.790 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 15:05:35.532 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2023-11-30 15:05:49.967 [main] HRMExistingEmployeeDetailsTest - Existing Customer details are displaying on page!
+[INFO ] 2023-11-30 15:05:51.857 [main] HRMExistingEmployeeDetailsTest - Browser closes!
+[INFO ] 2023-11-30 15:05:55.764 [main] LoginInvalidCred - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2023-11-30 15:05:59.124 [main] LoginInvalidCred - Invalid Credentials are entered on page!!
