@@ -244,7 +244,7 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Implicit Wait is performed before launcing the application!");
+				System.out.println("Implicit Wait is performed before launching the application!");
 			} else {
 				System.out.println("Implicit wait is not performed!");
 			}
