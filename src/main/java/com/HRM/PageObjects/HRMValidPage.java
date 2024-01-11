@@ -9,23 +9,26 @@ import com.HRM.actiondriver.Action;
 
 public class HRMValidPage extends BaseClass {
 	
-	@FindBy(xpath = "//div[@class='organization-logo shadow']//img")
+	@FindBy(xpath = "//img[@alt='company-branding']")
 	WebElement OrangeHRM_Logo;
 	
-	@FindBy(xpath = "//input[@id='txtUsername']")
+	@FindBy(xpath = "//input[@name='username']//parent::div")
 	WebElement Username;
 	
-	@FindBy(css = "input[id='txtPassword']")
+	@FindBy(xpath = "//input[@type='password']//parent::div")
 	WebElement Password;
 	
-	@FindBy(xpath = "//button[text()='Login']")
+	@FindBy(xpath = "//button[@type='submit']")
 	WebElement Login;
 	
-	@FindBy(xpath = "//div[@id='ohrm-small-logo']//div")
+	@FindBy(xpath = "//img[@alt='client brand banner']")
 	WebElement VerifyHRM;
 	
-	@FindBy(xpath = "//span[text()='Log Out']")
+	@FindBy(xpath = "//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")
 	WebElement Logout;
+	
+	@FindBy(xpath = "//a[normalize-space()='Logout']")
+	WebElement Logout2;
 	
 	public HRMValidPage() {
 		
@@ -52,6 +55,7 @@ public class HRMValidPage extends BaseClass {
 	
 	public void Logout() throws Throwable {
 		Action.click(getDriver(), Logout);
+		Action.click(getDriver(), Logout2);
 	}
 
 	

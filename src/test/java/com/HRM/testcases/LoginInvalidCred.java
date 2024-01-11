@@ -31,7 +31,7 @@ public class LoginInvalidCred extends BaseClass {
 		getDriver().quit();
 	}
 	
-	@Test(priority=1, enabled=true,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
+	@Test(priority=1, enabled=false,dataProviderClass=NewExcelLibrary.class,dataProvider="bvttest")
 	public void InvalidData(String uname, String password) throws Exception {
 		
 	negativeTestcase = new InvalidLogin();

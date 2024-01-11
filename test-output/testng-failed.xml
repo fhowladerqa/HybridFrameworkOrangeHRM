@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.LoginInvalidCred">
+      <class name="com.HRM.testcases.HRMValidLoginTest">
         <methods>
-          <include name="setup"/>
+          <include name="LoginTestData"/>
           <include name="teardown"/>
-          <include name="InvalidData"/>
           <include name="loadConfig"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.HRM.testcases.LoginInvalidCred -->
+      </class> <!-- com.HRM.testcases.HRMValidLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

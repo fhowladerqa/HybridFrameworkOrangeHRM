@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T17:09:35 EST" name="Cross_Browser_HRM_Tests" finished-at="2023-11-23T17:11:19 EST" duration-ms="104313">
+  <suite started-at="2024-01-10T20:40:05 EST" name="Default suite" finished-at="2024-01-10T20:40:06 EST" duration-ms="813">
     <groups>
     </groups>
-    <test started-at="2023-11-23T17:09:35 EST" name="Chrome_Test" finished-at="2023-11-23T17:10:06 EST" duration-ms="31413">
-      <class name="com.HRM.testcases.OrangeHRMEmpDetailsTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@7cbc3762]" started-at="2023-11-23T17:09:35 EST" name="loadConfig" finished-at="2023-11-23T17:09:35 EST" duration-ms="19" status="PASS">
+    <test started-at="2024-01-10T20:40:05 EST" name="Default test" finished-at="2024-01-10T20:40:06 EST" duration-ms="813">
+      <class name="com.HRM.testcases.HRMValidLoginTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@ebb6851]" started-at="2024-01-10T20:40:05 EST" name="loadConfig" finished-at="2024-01-10T20:40:05 EST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@7cbc3762]" started-at="2023-11-23T17:09:36 EST" name="setup" finished-at="2023-11-23T17:09:43 EST" duration-ms="6806" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@ebb6851]" started-at="2024-01-10T20:40:06 EST" name="setup" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1704937206270" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\faris\AppData\Local\Temp\testng-eclipse-973497109\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\faris\AppData\Local\Temp\testng-eclipse-973497109\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:2, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@7cbc3762]" started-at="2023-11-23T17:09:43 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-23T17:10:05 EST" duration-ms="22931" status="PASS">
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@ebb6851]" started-at="2024-01-10T20:40:06 EST" name="LoginTestData" data-provider="bvttest" finished-at="2024-01-10T20:40:06 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -36,106 +66,60 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Faris198407]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\faris\AppData\Local\Temp\testng-eclipse-973497109\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\faris\AppData\Local\Temp\testng-eclipse-973497109\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.OrangeHRMEmpDetailsTest@7cbc3762]" started-at="2023-11-23T17:10:05 EST" name="teardown" finished-at="2023-11-23T17:10:06 EST" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMValidLoginTest@ebb6851]" started-at="2024-01-10T20:40:06 EST" name="teardown" finished-at="2024-01-10T20:40:06 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.HRM.testcases.OrangeHRMEmpDetailsTest -->
-    </test> <!-- Chrome_Test -->
-    <test started-at="2023-11-23T17:10:06 EST" name="Edge_Test" finished-at="2023-11-23T17:10:37 EST" duration-ms="30779">
-      <class name="com.HRM.testcases.HRMExistingEmployeeDetailsTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@4c2cc639]" started-at="2023-11-23T17:10:06 EST" name="loadConfig" finished-at="2023-11-23T17:10:06 EST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@4c2cc639]" started-at="2023-11-23T17:10:06 EST" name="setup" finished-at="2023-11-23T17:10:12 EST" duration-ms="5562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:4, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@4c2cc639]" started-at="2023-11-23T17:10:12 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-23T17:10:36 EST" duration-ms="24538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Faris198407]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMExistingEmployeeDetailsTest@4c2cc639]" started-at="2023-11-23T17:10:36 EST" name="teardown" finished-at="2023-11-23T17:10:37 EST" duration-ms="491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.HRM.testcases.HRMExistingEmployeeDetailsTest -->
-    </test> <!-- Edge_Test -->
-    <test started-at="2023-11-23T17:10:37 EST" name="FireFox_Test" finished-at="2023-11-23T17:11:19 EST" duration-ms="41994">
-      <class name="com.HRM.testcases.HRMJobHistoryTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@ec2cc4]" started-at="2023-11-23T17:10:37 EST" name="loadConfig" finished-at="2023-11-23T17:10:37 EST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@ec2cc4]" started-at="2023-11-23T17:10:37 EST" name="setup" finished-at="2023-11-23T17:10:46 EST" duration-ms="9419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginTestData(java.lang.String,java.lang.String)[pri:5, instance:com.HRM.testcases.HRMJobHistoryTest@ec2cc4]" started-at="2023-11-23T17:10:46 EST" name="LoginTestData" data-provider="bvttest" finished-at="2023-11-23T17:11:17 EST" duration-ms="30348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Faris198407]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTestData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.HRM.testcases.HRMJobHistoryTest@ec2cc4]" started-at="2023-11-23T17:11:17 EST" name="teardown" finished-at="2023-11-23T17:11:19 EST" duration-ms="2058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.HRM.testcases.HRMJobHistoryTest -->
-    </test> <!-- FireFox_Test -->
-  </suite> <!-- Cross_Browser_HRM_Tests -->
+      </class> <!-- com.HRM.testcases.HRMValidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

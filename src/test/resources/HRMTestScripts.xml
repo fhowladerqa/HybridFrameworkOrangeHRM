@@ -11,7 +11,7 @@
 
 		<parameter name="browser" value="Chrome" />
 		<parameter name="URL"
-			value="https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login" />
+			value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
 
 		<classes>
 			<class name="com.HRM.testcases.OrangeHRMEmpDetailsTest" />
