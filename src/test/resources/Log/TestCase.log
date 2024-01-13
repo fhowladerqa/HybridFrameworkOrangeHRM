@@ -390,3 +390,10 @@
 [INFO ] 2023-11-26 09:55:40.402 [main] HRMSalaryDetailsTest - Browser is opening and navigates to OrangeHRMPage
 [INFO ] 2023-11-26 09:55:46.116 [main] HRMSalaryDetailsTest - Valid Credentials are entered and navigates to HRM page!
 [INFO ] 2023-11-26 09:55:57.287 [main] HRMSalaryDetailsTest - Information for employee's salary dispaying on page!
+[INFO ] 2024-01-12 20:52:26.676 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2024-01-12 20:54:36.292 [main] OrangeHRMEmpDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2024-01-12 20:54:41.841 [main] OrangeHRMEmpDetailsTest - Valid Credentials are entered on page!!
+[INFO ] 2024-01-12 20:54:52.324 [main] OrangeHRMEmpDetailsTest - Customer's details are displaying on page!
+[INFO ] 2024-01-12 20:54:52.325 [main] OrangeHRMEmpDetailsTest - Browser closes!
+[INFO ] 2024-01-12 20:54:59.027 [main] HRMExistingEmployeeDetailsTest - Browser is opening and navigates to OrangeHRMPage
+[INFO ] 2024-01-12 20:55:04.467 [main] HRMExistingEmployeeDetailsTest - Valid Credentials are entered on page!!

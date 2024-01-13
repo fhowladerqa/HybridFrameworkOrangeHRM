@@ -10,7 +10,7 @@
 	<test name="Chrome_Test">
 		<parameter name="browser" value="Chrome" />
 		<parameter name="URL"
-			value="https://fhowladerqa0722-trials710.orangehrmlive.com/auth/login" />
+			value="https://fhowladerqa2024-trials711.orangehrmlive.com/auth/login" />
 		<classes>
 			<class name="com.HRM.testcases.OrangeHRMEmpDetailsTest" />
 		</classes>
